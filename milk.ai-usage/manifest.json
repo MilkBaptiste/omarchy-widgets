@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "milk.ai-usage",
+  "name": "AI usage limits",
+  "version": "1.2.0",
+  "author": "milk",
+  "description": "Codex and Claude five-hour and weekly subscription usage",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Widget.qml"
+  },
+  "barWidget": {
+    "displayName": "AI usage limits",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "milk.llm-rankings",
+  "name": "LLM Rankings",
+  "version": "5.2.0",
+  "author": "milk",
+  "description": "Artificial Analysis leaderboard: all top-lab models, mascots, reasoning lock, chart, pins, comfort mode, hourly refresh",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Widget.qml"
+  },
+  "barWidget": {
+    "displayName": "LLM Rankings",
+    "category": "Information",
+    "allowMultiple": false,
+    "defaultSection": "left"
+  }
+}

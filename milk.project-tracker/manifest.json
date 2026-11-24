@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "milk.project-tracker",
+  "name": "Projects",
+  "version": "0.1.0",
+  "author": "milk",
+  "description": "Projects (milk-style Omarchy widget)",
+  "kinds": ["bar-widget"],
+  "entryPoints": {"barWidget": "Widget.qml"},
+  "barWidget": {"displayName": "Projects", "category": "Information", "allowMultiple": false, "defaultSection": "left"}
+}

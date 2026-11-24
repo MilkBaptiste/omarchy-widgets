@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "milk.bar-fit",
+  "name": "Bar Fit",
+  "version": "1.0.0",
+  "author": "milk",
+  "description": "Keeps top-bar widgets from overlapping (auto-collapses text widgets to icons) and adds a collapse-all button",
+  "kinds": ["bar-widget"],
+  "entryPoints": {"barWidget": "Widget.qml"},
+  "barWidget": {"displayName": "Bar Fit", "category": "System", "allowMultiple": false, "defaultSection": "right"}
+}

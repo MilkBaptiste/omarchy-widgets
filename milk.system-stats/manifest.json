@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "milk.system-stats",
+  "name": "CPU, memory and GPU",
+  "version": "1.0.0",
+  "author": "milk",
+  "description": "Live CPU and memory usage and Intel GPU frequency with detail panels",
+  "kinds": ["bar-widget"],
+  "entryPoints": {"barWidget": "Widget.qml"},
+  "barWidget": {"displayName": "CPU, memory and GPU", "category": "System", "allowMultiple": false, "defaultSection": "right"}
+}

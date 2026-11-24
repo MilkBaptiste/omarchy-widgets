@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "milk.themes",
+  "name": "Themes",
+  "version": "1.0.0",
+  "author": "milk",
+  "description": "Palette button: opens the Omarchy theme switcher (previews + type to filter)",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "Widget.qml" },
+  "barWidget": {
+    "displayName": "Themes",
+    "category": "Appearance",
+    "allowMultiple": false,
+    "defaultSection": "centerEnd"
+  }
+}

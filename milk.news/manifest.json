@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "milk.news",
+  "name": "News",
+  "version": "1.0.0",
+  "author": "milk",
+  "description": "Rotating headline ticker with a themed, keyboard-driven news panel (RSS, no API keys)",
+  "kinds": ["bar-widget"],
+  "entryPoints": {"barWidget": "Widget.qml"},
+  "barWidget": {"displayName": "News", "category": "Information", "allowMultiple": false, "defaultSection": "center"}
+}

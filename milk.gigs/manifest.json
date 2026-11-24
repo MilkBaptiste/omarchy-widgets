@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "milk.gigs",
+  "name": "Gigs",
+  "version": "1.0.0",
+  "author": "milk",
+  "description": "Gig board: local and remote contract gigs from the gigboard backend, NEW count on the bar, refresh, star, hide, comfort mode",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Widget.qml"
+  },
+  "barWidget": {
+    "displayName": "Gigs",
+    "category": "Information",
+    "allowMultiple": false,
+    "defaultSection": "left"
+  }
+}
